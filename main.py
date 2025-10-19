@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-clean_magnet.py
-
-Reads a magnet link from input, removes all 'tr=' (tracker) parameters,
-and prints a cleaned version.
-"""
-
 import urllib.parse
 
 def clean_magnet(magnet_link: str) -> str:
@@ -33,3 +25,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
